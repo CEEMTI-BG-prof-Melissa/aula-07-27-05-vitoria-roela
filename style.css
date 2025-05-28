@@ -18,7 +18,7 @@ a[href *= "exemplo"] {
     font-weight: bold;
 }
 
-div[class ^= "ativo"] {
+div[class ~= "ativo"] {
     background-color: lightblue;
 }
 
